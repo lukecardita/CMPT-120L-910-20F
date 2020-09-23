@@ -1,3 +1,4 @@
 {
-    "python.pythonPath": "C:\\Users\\lukec\\AppData\\Local\\Microsoft\\WindowsApps\\python.exe",
+    "python.pythonPath": "/usr/local/bin/python3",
+    "python.dataScience.jupyterServerURI": "local"
 }
