@@ -8,9 +8,6 @@
 def saturdays_bank_transactions(transations) -> (float, float):
     savings = 1096.25
     checking = 1590.80
-
-
-
     pass
 if __name__ == "__main__":
     transations = []
