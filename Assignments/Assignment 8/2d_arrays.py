@@ -8,6 +8,8 @@ def sum_2d_array(two_d_array):
     
     - If a sub array is empty the sum is 0
     """
+    result = list(map(sum, two_d_array))
+    return(result)
     pass
 
 if __name__ == "__main__":
@@ -19,7 +21,7 @@ if __name__ == "__main__":
         [1000000000000000],
         [1],
         [0]
-        ]
+]
     answers = sum_2d_array(two_d_array)
     
     print(answers)

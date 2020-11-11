@@ -6,6 +6,14 @@ def prime_or_composite(number):
     
     - Take in a parameter called number and return “Prime” or “Composite”
     """
+    if number > 1:
+        for i in range (2, number):
+            if (number % i) == 0:
+                return("Composite")
+        else:
+            return("Prime")
+    else:
+        return("Composite")
     pass
 
 if __name__ == "__main__":
